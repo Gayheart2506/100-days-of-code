@@ -18,3 +18,8 @@ flight = Flight(4)
 persons = ["Gayheart", "Marvin", "Williams", "Leticia", "Matthew"]
 for person in persons:
     on_board = flight.add_passenger(person)
+
+    if on_board:
+        print(f"sucessfully added {person} to flight.")
+    else:
+        print(f"There are no more seats avaiable for {person}")
