@@ -10,7 +10,7 @@ class Person():
         else:
             return False
 
-print("*********** Welcome to the Voters Identifier Program ************\n")
+print("*********** Welcome to the Qualified Voters Identifier Program ************\n")
 
 person = Person(input("Enter Name: "), int(input("Qualified to vote ? Enter Age please: ")))
 
