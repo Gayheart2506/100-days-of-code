@@ -7,5 +7,5 @@ You can try remove the str coverter from the name variable and run the code to
 see the output.
 '''
 
-name = len(input("what is your name?: "))
+name = len(input("what is your name? : "))
 print("Your name contains " + str(name) + " characters.")
